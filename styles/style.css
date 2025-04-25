@@ -59,7 +59,7 @@
   padding-bottom: 4px;
 }
 
-.address__interlinkage {
+.address__line-height {
   line-height: 24px;
 }
 
@@ -135,23 +135,27 @@
 .text-alignment {
   display: flex;
   align-items: center;
+  padding-top: 0;
+  padding-left: 0;
 }
 
-.aligned-text {
+.aligned-text_left {
   justify-content: flex-start;
   padding-left: 50px;
 }
 
 .aligned-text_center {
   justify-content: center;
-  padding-top: 20px;
   padding-left: 30px;
 }
 
 .aligned-text_right {
   justify-content: flex-end;
-  padding-top: 20px;
   padding-right: 20px;
+}
+
+.aligned-text-padding-top {
+  padding-top: 20px;
 }
 
 .lots {
